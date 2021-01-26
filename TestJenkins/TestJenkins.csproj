@@ -327,6 +327,6 @@
   <Target Name="AfterBuild">
   </Target> -->
   <Target Name="DeleteBinObjFolders" BeforeTargets="Clean">
-    <RemoveDir Directories=".\obj\Release" />
+    <RemoveDir Directories=".\obj" />
   </Target>
 </Project>
